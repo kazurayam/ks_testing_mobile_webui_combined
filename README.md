@@ -22,9 +22,10 @@ The original poster wanted to write a Test Case script that execute a Mobile tes
 
 - How to choose PC Chrome on PC rather than Firefox or Edge to run his WebUI test.
 
-But Katalon Studio requires us choose a single browser to run a Test Case with. We can choose Chrome for a WebUI test; we can choose Android for a Moble test. But the original poster wants both of Chrome and Android for a single Test Case. Katalon Studio does not allow us to do so:
+Katalon Studio is not designed such case in mind. Katalon Studio requires us choose a single browser to run a Test Case with. We can choose Chrome for a WebUI test; we can choose Android for a Moble test. But the original poster wants both of Chrome and Android for a single Test Case.
 
 ![choosing browser](https://kazurayam.github.io/ks_mobile_webui_together/images/choosing_browser_in_GUI.png)
+
 
 
 
