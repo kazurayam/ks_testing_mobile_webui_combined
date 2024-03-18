@@ -36,7 +36,7 @@ A Test Case should start Chrome browser using the WebDriver API without calling 
 
 ### Combinator test case
 
-I made a Test Case [Combinator](https://github.com/kazurayam/ks_mobile_webui_together/blob/master/Scripts/Combinator/Script1710751040667.groovy):
+I made a Test Case [Combinator](https://github.com/kazurayam/ks_testing_mobile_webui_combined/blob/master/Scripts/Combinator/Script1710751040667.groovy):
 
 ```
 // run Mobile test
@@ -50,7 +50,7 @@ The Combinator combines two scripts in a sequence. It calls a Mobile test first,
 
 I would launch the Combinator while choosing Android. I would forget Chrome here.
 
-![choose Android](https://kazurayam.github.io/ks_mobile_webui_together/images/choose_Android.png)
+![choose Android](https://kazurayam.github.io/ks_testing_mobile_webui_combined/images/choose_Android.png)
 
 The `Combinator` Test Case successfully worked for me. It ran a Mobile App on my Android phone, and after that it opened Chrome browser and visited http://demoaut.katalon.com .
 
