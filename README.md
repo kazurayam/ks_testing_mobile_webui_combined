@@ -48,7 +48,7 @@ WebUI.callTestCase(findTestCase("Verify Login CURA System - PC Chrome Browser"),
 
 The Combinator combines two scripts in a sequence. It calls a Mobile test first, and soon after that it calls a WebUI test.
 
-I would launch the Combinator while choosing Android. I would forget Chrome here.
+I would launch the Combinator while choosing Android. I would not mind Chrome here.
 
 ![choose Android](https://kazurayam.github.io/ks_testing_mobile_webui_combined/images/choose_Android.png)
 
