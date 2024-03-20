@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>OpenBrowserKeywordModifierTestRunner</name>
+   <name>CallTestCaseKeywordModifierTestRunner</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8154d802-0316-424b-bec6-af7c658803eb</testCaseGuid>
+   <testCaseGuid>a52efdd7-ed89-4152-8100-f608d29a82ec</testCaseGuid>
 </TestCaseEntity>
