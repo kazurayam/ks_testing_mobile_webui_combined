@@ -8,7 +8,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
  */
 
 // run Mobile test
-Mobile.callTestCase(findTestCase("Verify Last Items In List"), null)
+Mobile.callTestCase(findTestCase("Verify Last Items In List"), [:])
 
 // run WebUI test while launching PC Chrome browser explicitly without calling WebUI.openBrowser('')
-WebUI.callTestCase(findTestCase("Verify Login CURA System - PC Chrome Browser"), null)
+WebUI.callTestCase(findTestCase("Verify Login CURA System - PC Chrome Browser"), [:])
