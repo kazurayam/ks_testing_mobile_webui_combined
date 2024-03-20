@@ -10,15 +10,16 @@ public class CallTestCaseKeywordModifier {
 
 	@Keyword
 	public static boolean modify() {
-		CallTestCaseKeyword.metaClass.callTestCase = { 
-				DriverType driverType,
-				TestCase calledTestCase,
-				Map<String, Object> binding,
-				FailureHandling flowControl ->
+		CallTestCaseKeyword.metaClass.callTestCase = {  DriverType driverType, TestCase calledTestCase, Map<String, Object> binding, FailureHandling flowControl ->
 			println "> driverType: ${driverType}"
 			println "> calledTestCase: ${calledTestCase}"
 			println "> flowControl: ${flowControl}"
+
+			CallTestCaseKeyword ctc = new CallTestCaseKeyword()
+			ctc.callTestCase(calledTestCase, binding, flowControl)
+	
 			return true
 		}
 	}
+	
 }
